@@ -12,7 +12,8 @@
         <module>Generic</module>
         <module>ABC</module>
         <module>UICatalog</module>
-        <module>Goat</module>
+        <module>NYP</module>
+
     </modules>
 
     <dependencyManagement>
