@@ -15,6 +15,7 @@
     <test name="ABC news home" preserve-order="true">
         <classes>
             <class name="pages.PopUpTest"/>
+            <class name="pages.HomePageTest"/>
         </classes>
     </test>
 </suite>

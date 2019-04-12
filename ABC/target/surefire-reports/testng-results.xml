@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite name="pages.MainPageTest" duration-ms="1" started-at="2019-04-11T19:18:57Z" finished-at="2019-04-11T19:18:57Z">
+  <suite name="Command line suite" duration-ms="50286" started-at="2019-04-12T04:44:06Z" finished-at="2019-04-12T04:44:56Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1" started-at="2019-04-11T19:18:57Z" finished-at="2019-04-11T19:18:57Z">
+    <test name="Command line test" duration-ms="50286" started-at="2019-04-12T04:44:06Z" finished-at="2019-04-12T04:44:56Z">
       <class name="pages.MainPageTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pages.MainPageTest@59f99ea]" name="extentSetup" is-config="true" duration-ms="176" started-at="2019-04-11T15:18:57Z" finished-at="2019-04-11T15:18:57Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pages.MainPageTest@1bce4f0a]" name="extentSetup" is-config="true" duration-ms="1252" started-at="2019-04-12T00:44:05Z" finished-at="2019-04-12T00:44:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2d3379b4]]>
+                <![CDATA[org.testng.TestRunner@7803bfd]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,509 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:pages.MainPageTest@59f99ea]" name="generateReport" is-config="true" duration-ms="140" started-at="2019-04-11T15:18:57Z" finished-at="2019-04-11T15:18:57Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:pages.MainPageTest@1bce4f0a]" name="generateReport" is-config="true" duration-ms="19" started-at="2019-04-12T00:44:56Z" finished-at="2019-04-12T00:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- pages.MainPageTest -->
+      <class name="pages.PopUpTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="4796" started-at="2019-04-12T00:44:40Z" finished-at="2019-04-12T00:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[app]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="initialization" is-config="true" duration-ms="1" started-at="2019-04-12T00:44:44Z" finished-at="2019-04-12T00:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-12T00:44:44Z" finished-at="2019-04-12T00:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.PopUpTest.closePopUp() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="closePopUp()[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="closePopUp" duration-ms="10990" started-at="2019-04-12T00:44:44Z" finished-at="2019-04-12T00:44:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: a4c5e16e-68a8-44f3-b6de-6f11f81a6674
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: a4c5e16e-68a8-44f3-b6de-6f11f81a6674
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button
+}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at home.PopUp.closeAD(PopUp.java:15)
+	at pages.PopUpTest.closePopUp(PopUpTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="afterEachTestMethod" is-config="true" duration-ms="696" started-at="2019-04-12T00:44:55Z" finished-at="2019-04-12T00:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closePopUp status=FAILURE method=PopUpTest.closePopUp()[pri:0, instance:pages.PopUpTest@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUpApp()[pri:0, instance:pages.PopUpTest@6a41eaa2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-12T00:44:56Z" finished-at="2019-04-12T00:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- pages.PopUpTest -->
+      <class name="pages.MenuOptionTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="setUp" is-config="true" duration-ms="4947" started-at="2019-04-12T00:44:24Z" finished-at="2019-04-12T00:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[app]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-04-12T00:44:29Z" finished-at="2019-04-12T00:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.MenuOptionTest.clickTop() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="initialize" is-config="true" duration-ms="1" started-at="2019-04-12T00:44:29Z" finished-at="2019-04-12T00:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="clickTop()[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="clickTop" duration-ms="10548" started-at="2019-04-12T00:44:29Z" finished-at="2019-04-12T00:44:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 10927e24-749d-49dc-9065-646aa1d8256e
+*** Element info: {Using=xpath, value=//android.widget.ImageButton[@content-desc="Drawer Opened"]
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 10927e24-749d-49dc-9065-646aa1d8256e
+*** Element info: {Using=xpath, value=//android.widget.ImageButton[@content-desc="Drawer Opened"]
+}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at home.MenuOptions.clickTopStories(MenuOptions.java:15)
+	at pages.MenuOptionTest.clickTop(MenuOptionTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTop -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="afterEachTestMethod" is-config="true" duration-ms="558" started-at="2019-04-12T00:44:39Z" finished-at="2019-04-12T00:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickTop status=FAILURE method=MenuOptionTest.clickTop()[pri:0, instance:pages.MenuOptionTest@6a4f787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUpApp()[pri:0, instance:pages.MenuOptionTest@6a4f787b]" name="cleanUpApp" is-config="true" duration-ms="1" started-at="2019-04-12T00:44:40Z" finished-at="2019-04-12T00:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- pages.MenuOptionTest -->
+      <class name="pages.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pages.HomePageTest@685cb137]" name="setUp" is-config="true" duration-ms="5430" started-at="2019-04-12T00:44:06Z" finished-at="2019-04-12T00:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[app]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pages.HomePageTest@685cb137]" name="startExtent" is-config="true" duration-ms="2" started-at="2019-04-12T00:44:11Z" finished-at="2019-04-12T00:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.HomePageTest.clickMeniButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pages.HomePageTest@685cb137]" name="initialize" is-config="true" duration-ms="15" started-at="2019-04-12T00:44:11Z" finished-at="2019-04-12T00:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="clickMeniButton()[pri:0, instance:pages.HomePageTest@685cb137]" name="clickMeniButton" duration-ms="11042" started-at="2019-04-12T00:44:11Z" finished-at="2019-04-12T00:44:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 33d35a4f-04bc-47f2-8654-4c5f9414e506
+*** Element info: {Using=xpath, value=//android.widget.ImageButton[@content-desc="Drawer Opened"]
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Muhtasims-MBP.fios-router.home', ip: '192.168.1.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, appPackage=com.abc.abcnews, deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.abc.abcnews, appWaitActivity=com.abc.abcnews.ui.StartActivity, databaseEnabled=false, deviceName=emulator-5556, platform=LINUX, deviceUDID=emulator-5556, appActivity=com.abc.abcnews.ui.StartActivity, desired={app=/Users/muhtasimmahir/IdeaProjects/Mobile_Automation/ABC/app/abc.apk, noReset=true, platformVersion=9, platformName=Android, deviceName=Android Emulator}, platformVersion=9, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=Google}]
+Session ID: 33d35a4f-04bc-47f2-8654-4c5f9414e506
+*** Element info: {Using=xpath, value=//android.widget.ImageButton[@content-desc="Drawer Opened"]
+}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at home.HomePage.clickMenu(HomePage.java:13)
+	at pages.HomePageTest.clickMeniButton(HomePageTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMeniButton -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pages.HomePageTest@685cb137]" name="afterEachTestMethod" is-config="true" duration-ms="1233" started-at="2019-04-12T00:44:22Z" finished-at="2019-04-12T00:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickMeniButton status=FAILURE method=HomePageTest.clickMeniButton()[pri:0, instance:pages.HomePageTest@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUpApp()[pri:0, instance:pages.HomePageTest@685cb137]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-12T00:44:24Z" finished-at="2019-04-12T00:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- pages.HomePageTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- pages.MainPageTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

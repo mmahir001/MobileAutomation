@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="pages.MainPageTest">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- pages.MainPageTest -->
+      <class name="pages.HomePageTest">
+        <methods>
+          <include name="clickMeniButton"/>
+          <include name="startExtent"/>
+          <include name="cleanUpApp"/>
+          <include name="initialize"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pages.HomePageTest -->
+      <class name="pages.MenuOptionTest">
+        <methods>
+          <include name="clickTop"/>
+          <include name="startExtent"/>
+          <include name="initialize"/>
+          <include name="cleanUpApp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pages.MenuOptionTest -->
+      <class name="pages.PopUpTest">
+        <methods>
+          <include name="startExtent"/>
+          <include name="cleanUpApp"/>
+          <include name="closePopUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialization"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pages.PopUpTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
