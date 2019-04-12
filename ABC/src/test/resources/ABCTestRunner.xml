@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite on Android Phone">
+
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Android Emulator"/>
+    <parameter name="version" value="9"/>
+    <parameter name="moduleName" value="ABC"/>
+    <parameter name="appDir" value="app"/>
+    <parameter name="appName" value="abc.apk"/>
+
+    <test name="ABC news home" preserve-order="true">
+        <classes>
+            <class name="pages.PopUpTest"/>
+        </classes>
+    </test>
+</suite>
