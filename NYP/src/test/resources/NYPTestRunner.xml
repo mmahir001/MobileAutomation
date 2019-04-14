@@ -15,6 +15,7 @@
     <test name="ABC news home" preserve-order="true">
         <classes>
             <class name="tests.MainPageTest"/>
+            <class name="tests.SearchTest"/>
         </classes>
     </test>
 </suite>

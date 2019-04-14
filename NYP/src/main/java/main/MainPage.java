@@ -20,6 +20,15 @@ public class MainPage extends MainAPI{
         Alerts.click();
     }
 
+    @FindBy(xpath = "//android.widget.TextView[@text='Search Articles']")
+    WebElement Search;
+
+    public void clickSearch() throws Exception{
+        Burger.click();
+        Search.sendKeys("Brooklyn news");
+        Thread.sleep(3000);
+    }
+
     @FindBy(xpath = "//android.widget.CheckedTextView[@text='Latest Stories']")
     WebElement LatestStories;
 
@@ -196,13 +205,7 @@ public class MainPage extends MainAPI{
         int scrollEnd = (int) (dimensions.getHeight() * 0.1);
         ad.swipe(200, Startpoint,200,scrollEnd,2000);
     }
-//    @FindBy(xpath = "//android.widget.CheckedTextView[@text='Latest Stories']")
-//    WebElement Settings;
-//
-//    public void clickSetting() throws Exception{
-//        Burger.click();
-//        Settings.click();
-//    }
+
 
 
 }

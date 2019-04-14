@@ -25,6 +25,12 @@ public class MainPageTest extends MainAPI {
     }
 
     @Test
+    public void clickSearch() throws Exception {
+        mainPage.clickSearch();
+    }
+
+
+    @Test
     public void clickLSButton() throws Exception{
         mainPage.clickLS();
     }
